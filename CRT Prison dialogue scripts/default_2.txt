@@ -1,0 +1,12 @@
+p:I don't like here.
+p:Please let me out.
+p:you can help me right?
+@bgm=hollow_pillow
+p:something goes wrong.
+p:I must be free.
+p:Or I will freak out.
+p:Are you prison me?
+p:Where is the weird knight man?
+p:I trapped here.
+@p.img=n
+p:oh no. I'm the knight.
