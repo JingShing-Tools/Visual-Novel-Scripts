@@ -1,0 +1,108 @@
+@player=rainman
+@rainman.img=rainman
+@rainman.color=0,0,128
+@none.color=255,255,255
+
+@begin
+@option=Yes
+@option.com=jump like_rain
+@option2=No
+@option2.com=jump unlike_rain
+@bg=bg3
+@bgm=RainyCity
+rainman:I am rainman.
+@select
+Do you like rain?
+
+@like_rain
+Really. I see.
+I don't really like it, but I have no choice
+BUT to stay here./////////////////////////////
+@jump rain_after
+
+@unlike_rain
+I don't like it either.
+I don't know why you are here.
+@jump rain_after
+
+@rain_after
+This is my destiny. Stuck in the rainy city.
+Rain drops like needles. And we can't escape 
+from it.
+This is a curse from a goddess.
+The ancestors angered her.
+So the city where they landed became the place
+the goddess of the sea poured out her anger.
+The humid, hot and rainy climate here is not 
+suitable for human life.
+Who thought that this place was successively 
+occupied by three cultures.
+But it is also the climate that can protect
+this land from invader.
+Years of heavy rain and proximity to the sea.
+The desolate continent was revived by
+people's prayers.
+Because the goddess of the sea created life.
+She loving souls of creature. //////////////////////
+@bgm=harmony
+Every once in a while strangers disappears.
+Some nasty outsider.
+They come from out of town. 
+Go fishing for living.
+No one in the area would care if they are alive/////////////
+or died.
+But I was very concerned, so I stalk quietly. 
+their fishing vessel.
+It's not a fancy place, it's just a group of 
+people who make a living out of it.
+A group of middle-aged old man smoking and 
+wearing a lantern.
+@bgm=hollow_pillow
+I saw that, quite accustomed to pushing down 
+a group of outsiders.
+The scaly goddess of the sea.
+With the palms of long sharp teeth,
+one by one, each one was squeezed into flesh.
+the mouth is split from the hand.
+That's all I can describe.
+Four or five exposed eyeballs and 
+two pairs of broad auricles.
+The local fishermen, accustomed to it, 
+folded their hands in worship.
+I took a stranger's tooth from the deck.
+That might be the last relic he left 
+in the world.
+I don't know what to do, I can only 
+be glad that I am not outsiders.
+Later, when I went back to harbor,
+I didn't tell anyone else.
+@option.clear
+@option=(will)
+@option.com=jump keeper
+@option2=(will not)
+@option2.com=jump cheater
+@select
+You'll keep it a secret for me, right?
+
+@keeper
+@textbox.color=0,0,0
+none:People haven't seen him since 
+that day.
+Whether he continued to investigate 
+the truth or became a oblation, no one knows.
+I will continue to keep this secret 
+until I died.
+@end
+
+@cheater
+@textbox.color=0,0,0
+none:I told the local police what he did.
+They said they would take over the case.
+Of course, if it wasn't for me later stalk
+on the vessel. Seeing him been pushed to the 
+bottom of the sea.
+I almost believed them. I took his teeth. 
+Carry it with me all the time.
+Be wary.
+Don't ever go near RainyCity. ///////////////////
+@end
